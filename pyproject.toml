@@ -1,0 +1,11 @@
+[project]
+name = "ml-zoomcamp-deploy"
+version = "0.1.0"
+description = "Zoomcamp HW 5"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.120.0",
+    "scikit-learn>=1.7.2",
+    "uvicorn>=0.38.0",
+]
